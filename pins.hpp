@@ -1,3 +1,6 @@
+#ifndef PINS_HPP
+#define PINS_HPP
+
 enum PIN {
   //reserved 0
   //reserved 1
@@ -15,3 +18,5 @@ enum PIN {
   // other digital pins
   LM35_OUTPUT = A0
 };
+
+#endif

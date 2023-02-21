@@ -2,7 +2,7 @@
 
 #include "hc_sr_04.hpp"
 
-#include "detection.hpp"
+#include "utility.hpp"
 
 hc_sr_04::hc_sr_04(const int trig, const int echo)
   : trigger_pin(trig), echo_pin(echo) {

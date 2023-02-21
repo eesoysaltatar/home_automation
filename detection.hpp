@@ -1,11 +1,7 @@
 #ifndef DETECTION_HPP
 #define DETECTION_HPP
 
-enum class DetectionLevel {
-  UNKNOWN,
-  DETECTED,
-  CLEAR
-};
+#include "utility.hpp"
 
 class Detection {
 public:
